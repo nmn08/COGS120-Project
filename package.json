@@ -4,16 +4,18 @@
   "author": "Intro HCI Staff",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nmn08/COGS120-Project"
+    "url": "https://github.com/IntroHCI/lab4"
   },
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "3.x",
-    "express3-handlebars": "*"
+    "express3-handlebars": "*",
+    "mongodb": "*",
+    "mongoose": "*"
   },
   "engines": {
     "node": "0.10.x"
