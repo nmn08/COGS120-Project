@@ -1,0 +1,28 @@
+{
+	"departments": [
+		{
+			"link": "/acct",
+			"department": "ACCOUNTING"
+		},
+		{
+			"link": "/bio",
+			"department": "BIOENGINEER"
+		},
+		{
+			"link": "/chem",
+			"department": "CHEMICAL ENGINEER"
+		},
+		{
+			"link": "/cogs",
+			"department": "COGNITIVE SCIENCE"
+		},
+		{
+			"link": "/cse",
+			"department": "COMPUTER SCIENCE"
+		},
+		{
+			"link": "/others",
+			"department": "OTHERS"
+		}
+	]
+}
