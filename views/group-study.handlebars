@@ -28,6 +28,12 @@
 	</nav>
 
 	<div class="container">
-	
+    <h4 class="my-3">Select your department:</h4>
+    {{#each departments}}
+      <div class="row justify-content-center">
+          <a href={{link}} class="card">{{department}}</a>
+      </div>
+    {{/each}}
+	</div>
 </body>
 </html>
