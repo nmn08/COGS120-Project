@@ -37,7 +37,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-// app.get('/group-study', grStudy.view);
+app.get('/group-study', grStudy.view);
 // Example route
 // app.get('/users', user.list);
 

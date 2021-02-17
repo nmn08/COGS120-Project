@@ -5,8 +5,8 @@
 	<title>HCI Project Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="/css/bootstrap.css" rel="stylesheet">
-	<link href="/css/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 	<link href="/css/introHCI.css" rel="stylesheet">
 	<!-- this is a comment in HTML -->
 
@@ -18,36 +18,32 @@
     <![endif]-->
 
 	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="/js/introHCI.js"></script>
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand center" href="/">Find Your Buddy</a>
+	<nav class="navbar mb-2">
+		<a class="navbar-brand" href="/">Find Your Buddy</a>
 	</nav>
 
 	<div class="container">
-		<form class="form-inline">
-			<div class="row">
-				<div class="col-xs-9">
-					<label class="sr-only" for="search">Search</label>
-					<input type="text" class="form-control" id="search" placeholder="Class Name">
-				</div>
-				<div class="col-xs-2">
-					<button type="submit" class="btn btn-primary">Search</button>
-				</div>
+		<form class="form-inline justify-content-center">
+			<div class="form-group mx-2 mb-2">
+				<label for="search" class="sr-only">Password</label>
+				<input type="text" class="form-control" id="search" placeholder="Class name">
 			</div>
+			<button type="submit" class="btn btn-primary mb-2">Search</button>
 		</form>
-		<img src="..\public\images\lorempixel.abstract.1.jpeg">
-		<div class="row">
-			<a class="card">GROUP STUDY</a>
+		<img src="images/logo.jpg" class="rounded mx-auto my-3 d-block" id="logo" alt="logo">
+		<div class="row justify-content-center">
+			<a href="group-study" class="card">GROUP STUDY</a>
 		</div>
-		<div class="row">
-			<a class="card">YOUR HOSTINGS</a>
+		<div class="row justify-content-center">
+			<a href="hostings" class="card">YOUR HOSTINGS</a>
 		</div>
-		<div class="row">
-			<a class="card">HISTORY</a>
+		<div class="row justify-content-center">
+			<a href="history" class="card">HISTORY</a>
 		</div>
 	</div>
 </body>
