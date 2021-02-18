@@ -12,6 +12,9 @@ var index = require('./routes/index');
 var grStudy = require('./routes/group-study');
 var dept = require('./routes/departments');
 var event = require('./routes/event');
+var hosts = require('./routes/hosts');
+var savedEvents = require('./routes/saved-events');
+var history = require('./routes/history');
 // Example route
 // var user = require('./routes/user');
 
@@ -40,6 +43,9 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/group-study', grStudy.view);
+app.get('/hosts', hosts.view);
+app.get('/saved-events', savedEvents.view);
+app.get('/history', history.view);
 app.get('/dept/:dept', dept.view);
 app.get('/event/:id', event.view);
 // Example route

@@ -3,5 +3,5 @@
  */
 
 exports.view = function(request, response){
-  response.render('index');
+  response.render('history');
 };
