@@ -3,72 +3,242 @@
 		{
 			"id": 1,
 			"department": "cse",
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
 			"class": "CSE8a",
 			"title": "Hash Table",
-			"time": "9:00PM"
+			"loc": "Ding Tea Mira Mesa",
+			"time": "9:00PM",
+			"avail" : 3,
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 2,
 			"department": "cse",
 			"class": "CSE11",
-			"title": "Hash Table",
-			"time": "9:00PM"
+			"title": "Tree",
+			"time": "9:00PM",
+			"avail" : 2,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 3,
 			"department": "cse",
 			"class": "CSE12",
 			"title": "Hash Table",
-			"time": "9:00PM"
+			"time": "9:00PM",
+			"avail" : 2,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 4,
 			"department": "cogs",
 			"class": "COGS108",
 			"title": "HW 4",
-			"time": "9:00PM"
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 5,
 			"department": "cogs",
 			"class": "COGS120",
 			"title": "Prototype",
-			"time": "9:00PM"
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 6,
 			"department": "acct",
 			"class": "MGT172",
 			"title": "Auditing",
-			"time": "9:00PM"
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 7,
 			"department": "bio",
 			"class": "BIBC100",
 			"title": "Structural",
-			"time": "9:00PM"
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 8,
 			"department": "econ",
 			"class": "ECON1",
 			"title": "A5",
-			"time": "9:00PM"
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 9,
 			"department": "others",
 			"class": "ENG100d",
 			"title": "Centered Design",
-			"time": "9:00PM"
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		},
 		{
 			"id": 10,
 			"department": "cogs",
 			"class": "COGS120",
 			"title": "Lab 7",
-			"time": "9:00PM"
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"name": "Nhat Nguyen",
+				"phone": 6193966156
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"name": "Minh Nguyen",
+					"phone": 6193966156
+				},
+				{
+					"name": "Tiffany Ton",
+					"phone": 6193966156
+				}
+			]
 		}
 	]
 }

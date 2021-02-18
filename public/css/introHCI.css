@@ -51,3 +51,29 @@ footer {
      line-height: 60px; /* Vertically center the text there */
      background-color: #f5f5f5;
 }
+
+footer > .container {
+     padding-right: 0px;
+     padding-left: 0px;
+     margin-left: 0px;
+}
+
+p.desc {
+     padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+    min-height: 1px;
+}
+
+.col-form-label {
+     color: white;
+     padding-right: 0px;
+     padding-left: 0px;
+     text-align: center;
+     border: solid;
+     border-color: grey;
+     border-radius: 10px;
+     background-color: grey;
+ }

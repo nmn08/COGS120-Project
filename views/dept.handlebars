@@ -53,9 +53,9 @@
                 <tr class="d-flex" id="row_{{id}}">
                     <td style="width: 25%">{{class}}</td>
                     <td style="width: 30%">{{title}}</td>
-                    <td style="width: 25%">{{time}}</td>
+                    <td style="width: 25%">{{avail}}</td>
                     <td style="width: 20%">
-                        <button class="fa fa-angle-double-right" type="submit"></button>
+                        <button class="btn btn-primary btn-large fa fa-angle-double-right" type="submit" onclick="window.location.href='/event/{{id}}'"></button>
                     </td>
                 </tr>
                 {{/each}}
