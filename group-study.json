@@ -1,0 +1,74 @@
+{
+	"groups": [
+		{
+			"id": 1,
+			"department": "cse",
+			"class": "CSE8a",
+			"title": "Hash Table",
+			"time": "9:00PM"
+		},
+		{
+			"id": 2,
+			"department": "cse",
+			"class": "CSE11",
+			"title": "Hash Table",
+			"time": "9:00PM"
+		},
+		{
+			"id": 3,
+			"department": "cse",
+			"class": "CSE12",
+			"title": "Hash Table",
+			"time": "9:00PM"
+		},
+		{
+			"id": 4,
+			"department": "cogs",
+			"class": "COGS108",
+			"title": "HW 4",
+			"time": "9:00PM"
+		},
+		{
+			"id": 5,
+			"department": "cogs",
+			"class": "COGS120",
+			"title": "Prototype",
+			"time": "9:00PM"
+		},
+		{
+			"id": 6,
+			"department": "acct",
+			"class": "MGT172",
+			"title": "Auditing",
+			"time": "9:00PM"
+		},
+		{
+			"id": 7,
+			"department": "bio",
+			"class": "BIBC100",
+			"title": "Structural",
+			"time": "9:00PM"
+		},
+		{
+			"id": 8,
+			"department": "econ",
+			"class": "ECON1",
+			"title": "A5",
+			"time": "9:00PM"
+		},
+		{
+			"id": 9,
+			"department": "others",
+			"class": "ENG100d",
+			"title": "Centered Design",
+			"time": "9:00PM"
+		},
+		{
+			"id": 10,
+			"department": "cogs",
+			"class": "COGS120",
+			"title": "Lab 7",
+			"time": "9:00PM"
+		}
+	]
+}

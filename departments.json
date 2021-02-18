@@ -1,28 +1,39 @@
 {
 	"departments": [
 		{
-			"link": "/acct",
-			"department": "ACCOUNTING"
+			"id": "acct",
+			"link": "/dept/acct",
+			"department": "Accounting"
 		},
 		{
-			"link": "/bio",
-			"department": "BIOENGINEER"
+			"id": "bio",
+			"link": "/dept/bio",
+			"department": "Bioengineering"
 		},
 		{
-			"link": "/chem",
-			"department": "CHEMICAL ENGINEER"
+			"id": "chem",
+			"link": "/dept/chem",
+			"department": "Chemistry"
 		},
 		{
-			"link": "/cogs",
-			"department": "COGNITIVE SCIENCE"
+			"id": "cogs",
+			"link": "/dept/cogs",
+			"department": "Cognitive Science"
 		},
 		{
-			"link": "/cse",
-			"department": "COMPUTER SCIENCE"
+			"id": "cse",
+			"link": "/dept/cse",
+			"department": "Computer Science"
 		},
 		{
-			"link": "/others",
-			"department": "OTHERS"
+			"id": "econ",
+			"link": "/dept/econ",
+			"department": "Economics"
+		},
+		{
+			"id": "others",
+			"link": "/dept/others",
+			"department": "Others"
 		}
 	]
 }
