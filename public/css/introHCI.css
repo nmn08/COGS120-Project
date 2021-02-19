@@ -76,4 +76,13 @@ p.desc {
      border-color: grey;
      border-radius: 10px;
      background-color: grey;
- }
+}
+
+footer button {
+     height: 40px;
+     width: 100px;
+}
+
+#groupList button {
+     width: 50px;
+}

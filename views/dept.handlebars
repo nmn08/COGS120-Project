@@ -28,7 +28,7 @@
 	</nav>
 
 	<div class="container">
-        <form class="form-inline justify-content-center">
+        <form action="/search" class="form-inline justify-content-center">
 			<div class="form-group mx-2 mb-2">
 				<label for="search" class="sr-only">Search</label>
 				<input type="text" class="form-control" id="search" placeholder='{{data.dept}}'>
@@ -39,7 +39,7 @@
 	</div>
 
     <div class="container-fluid">
-        <table class="table" id="travellers">
+        <table class="table" id="groupList">
             <thead>
                 <tr class="d-flex">
                     <th style="width: 25%">Class</th>
@@ -64,9 +64,13 @@
     </div>
     <footer class="bg-light text-lg-start">
         <div class="container">
-        <div class="row">
+        <div class="d-flex justify-content-between">
             <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-angle-left ml-2" onclick="history.back(-1)"> Back</button>
+                <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="history.back(-1)"> Back</button>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4">
+                <button type="button" class="btn btn-primary btn-large fa fa-angle-add" onclick="window.location.href='/new-event'"> Add</button>
             </div>
         </div>
 	</footer>

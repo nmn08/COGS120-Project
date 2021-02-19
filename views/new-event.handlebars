@@ -33,50 +33,44 @@
             <div class="row my-2">
                 <label for="class" class="col-3 col-form-label">Class</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="class" value="{{class}}">
+                    <input type="text" class="form-control-plaintext border" id="class" >
                 </div>
             </div>
             <div class="row my-2">
-                <label for="host" class="col-3 col-form-label">Host</label>
+                <label for="class" class="col-3 col-form-label">Host</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="host" value="{{host.name}}">
+                    <input type="text" class="form-control-plaintext border" id="host" >
                 </div>
             </div>
             <div class="row my-2">
-                <label for="title" class="col-3 col-form-label">Topic</label>
+                <label for="class" class="col-3 col-form-label">Topic</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="title" value="{{title}}">
+                    <input type="text" class="form-control-plaintext border" id="topic">
                 </div>
             </div>
             <div class="row my-2">
-                <label for="time" class="col-3 col-form-label">Time</label>
+                <label for="class" class="col-3 col-form-label">Time</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="time" value="{{time}}">
+                    <input type="text" class="form-control-plaintext border" id="time">
                 </div>
             </div>
             <div class="row my-2">
-                <label for="loc" class="col-3 col-form-label">Location</label>
+                <label for="class" class="col-3 col-form-label">Location</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="loc" value="{{loc}}">
+                    <input type="text" class="form-control-plaintext border" id="loc">
                 </div>
             </div>
             <div class="row my-2">
-                <label for="avail" class="col-3 col-form-label">Availibility</label>
+                <label for="class" class="col-3 col-form-label">Availibility</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="avail" value="{{avail}}">
+                    <input type="number" class="form-control-plaintext border" id="avail">
                 </div>
             </div>
             <div class="row my-2">
-                <label for="attendant" class="col-3 col-form-label">Attendant</label>
-                <div class="col-9">
-                    {{#each attendants}}
-                    <input type="text" readonly class="form-control-plaintext" value="{{name}}">
-                    {{/each}}
+                <label for="class" class="col-3 col-form-label">Detail</label>
+                <div class="col-12 my-2">
+                    <input type="text" class="form-control-plaintext border" id="desc">
                 </div>
-            </div>
-            <div class="row my-2">
-                <label for="desc" class="col-3 col-form-label">Detail</label>
-                <p class="desc">{{desc}}</p>
             </div>
         </form>
 	</div>
@@ -86,11 +80,9 @@
             <div class="col-4">
                 <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="history.back(-1)"> Back</button>
             </div>
+            <div class="col-4"></div>
             <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-share" onclick="window.location.href='/share'"> Share</button>
-            </div>
-            <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-get-pocket" onclick="window.location.href='/reserved'"> Reserve</button>
+                <button type="button" class="btn btn-primary btn-large fa fa-get-add" onclick="history.back(-1)"> Add</button>
             </div>
         </div>
         </div>

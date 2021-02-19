@@ -15,6 +15,10 @@ var event = require('./routes/event');
 var hosts = require('./routes/hosts');
 var savedEvents = require('./routes/saved-events');
 var history = require('./routes/history');
+var newEvent = require('./routes/new-event');
+var reserved = require('./routes/reserved');
+var share = require('./routes/share');
+var search = require('./routes/search');
 // Example route
 // var user = require('./routes/user');
 
@@ -48,6 +52,10 @@ app.get('/saved-events', savedEvents.view);
 app.get('/history', history.view);
 app.get('/dept/:dept', dept.view);
 app.get('/event/:id', event.view);
+app.get('/new-event', newEvent.view);
+app.get('/reserved', reserved.view);
+app.get('/share', share.view);
+app.get('/search', search.view);
 // Example route
 // app.get('/users', user.list);
 
