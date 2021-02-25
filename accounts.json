@@ -1,0 +1,29 @@
+{
+	"accounts": [
+		{
+			"id": 1,
+			"email": "nmn008@ucsd.edu",
+			"pass": "123qweqwe",
+			"name": "Nhat Nguyen"
+		},
+		{
+			"id": 2,
+			"email": "mrboovn@ucsd.edu",
+			"pass": "123qweqwe",
+			"name": "Minh Nguyen"
+		},
+		{
+			"id": 3,
+			"email": "t4ton@ucsd.edu",
+			"pass": "123qweqwe",
+			"name": "Tiffany Ton"
+		},
+		{
+			"id": 4,
+			"email": "ta",
+			"pass": "123qweqwe",
+			"name": "TA COGS120"
+		}
+	],
+	"availID" : 5
+}

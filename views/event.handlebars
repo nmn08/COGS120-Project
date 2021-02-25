@@ -19,7 +19,7 @@
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="/js/introHCI.js"></script>
+	<script src="/js/event.js"></script>
 </head>
 
 <body>
@@ -27,56 +27,58 @@
 		<a class="navbar-brand" href="/">Find Your Buddy</a>
 	</nav>
 
-	<div class="container">
+	<div class="body container">
         <h4 class="text-center my-3">Group Study Info</h4>
         <form class="mx-3">
             <div class="row my-2">
                 <label for="class" class="col-3 col-form-label">Class</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="class" value="{{class}}">
+                    <input type="text" readonly class="form-control-plaintext" id="class" value="{{data.class}}">
                 </div>
             </div>
             <div class="row my-2">
                 <label for="host" class="col-3 col-form-label">Host</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="host" value="{{host.name}}">
+                    <input type="text" readonly class="form-control-plaintext" id="host" value="{{data.host.name}}">
                 </div>
             </div>
             <div class="row my-2">
                 <label for="title" class="col-3 col-form-label">Topic</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="title" value="{{title}}">
+                    <input type="text" readonly class="form-control-plaintext" id="title" value="{{data.title}}">
                 </div>
             </div>
             <div class="row my-2">
                 <label for="time" class="col-3 col-form-label">Time</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="time" value="{{time}}">
+                    <input type="text" readonly class="form-control-plaintext" id="time" value="{{data.time}}">
                 </div>
             </div>
             <div class="row my-2">
                 <label for="loc" class="col-3 col-form-label">Location</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="loc" value="{{loc}}">
+                    <input type="text" readonly class="form-control-plaintext" id="loc" value="{{data.loc}}">
                 </div>
             </div>
             <div class="row my-2">
                 <label for="avail" class="col-3 col-form-label">Availibility</label>
                 <div class="col-9">
-                    <input type="text" readonly class="form-control-plaintext" id="avail" value="{{avail}}">
+                    <input type="text" readonly class="form-control-plaintext" id="avail" value="{{data.avail}}">
                 </div>
             </div>
             <div class="row my-2">
                 <label for="attendant" class="col-3 col-form-label">Attendant</label>
-                <div class="col-9">
-                    {{#each attendants}}
+                <div class="col-9" id="att">
+                    {{#each data.attendants}}
                     <input type="text" readonly class="form-control-plaintext" value="{{name}}">
                     {{/each}}
                 </div>
             </div>
             <div class="row my-2">
                 <label for="desc" class="col-3 col-form-label">Detail</label>
-                <p class="desc">{{desc}}</p>
+                <div class="col-12 my-2">
+                    <textarea readonly class="form-control" id="desc" rows="8">{{data.desc}}</textarea>
+                </div>
             </div>
         </form>
 	</div>
@@ -84,14 +86,25 @@
         <div class="container">
         <div class="d-flex justify-content-between">
             <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="history.back(-1)"> Back</button>
+                <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="window.location.href='/dept/{{deptID}}'"> Back</button>
             </div>
             <div class="col-4">
                 <button type="button" class="btn btn-primary btn-large fa fa-share" onclick="window.location.href='/share'"> Share</button>
             </div>
-            <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-get-pocket" onclick="window.location.href='/reserved'"> Reserve</button>
-            </div>
+            {{#unless  isHost}}
+            {{!-- <div class="col-4">
+                <button type="button" class="btn btn-primary btn-large fa fa-get-pocket" onclick="window.location.href='/save/{{id}}'"> Save</button>
+            </div> --}}
+            {{#if isAttorFull}}
+            <div class="col-4" >
+                <button type="button" id="btn-reserve" class="btn btn-primary btn-large fa fa-get-pocket" disabled='disabled'> Reserved</button>
+            </div> --}}
+            {{else}}
+            <div class="col-4" >
+                <button type="button" id="btn-reserve" class="btn btn-primary btn-large fa fa-get-pocket" onclick="reserve({{id}})"> Reserve</button>
+            </div> --}}
+            {{/if}}
+            {{/unless}}
         </div>
         </div>
 	</footer>

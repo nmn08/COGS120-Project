@@ -1,0 +1,237 @@
+{
+	"availID": 11,
+	"groups": [
+		{
+			"id": 1,
+			"department": "cse",
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"	
+			},
+			"class": "CSE8a",
+			"title": "Hash Table",
+			"loc": "Ding Tea Mira Mesa",
+			"time": "9:00PM",
+			"avail" : 3,
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"department": "cse",
+			"class": "CSE11",
+			"title": "Tree",
+			"time": "9:00PM",
+			"avail" : 2,
+			"host": {
+				"id": 2,
+					"name": "Minh Nguyen"
+			},
+			"loc": "Sharetea Mira Mesa",
+			"desc": "Assignment 2 and Lab 3",
+			"attendants": [
+				{
+					"id": 3,
+					"name": "Tiffany Ton"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"department": "cse",
+			"class": "CSE12",
+			"title": "Hash Table",
+			"time": "9:00PM",
+			"avail" : 2,
+			"host": {
+				"id": 3,
+					"name": "Tiffany Ton"				
+			},
+			"loc": "Meetfresh Mira Mesa",
+			"desc": "Pointer and Binary Heap",
+			"attendants": [
+				{
+					"id": 3,
+					"name": "Tiffany Ton"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"department": "cogs",
+			"class": "COGS108",
+			"title": "HW 4",
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"id": 3,
+				"name": "Tiffany Ton"				
+			},
+			"loc": "Ding Tai Fung",
+			"desc": "Data analysis",
+			"attendants": [
+				{
+					"id": 1,
+					"name": "Nhat Nguyen"					
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+		{
+			"id": 5,
+			"department": "cogs",
+			"class": "COGS120",
+			"title": "Prototype",
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"id": 1,
+				"name": "Nhat Nguyen"		
+			},
+			"loc": "R&B Convoy",
+			"desc": "Point of view and hosting a server",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"					
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+		{
+			"id": 6,
+			"department": "acct",
+			"class": "MGT172",
+			"title": "Auditing",
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"id": 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Cake de Party",
+			"desc": "Accounting, profit and loss",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"					
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+		{
+			"id": 7,
+			"department": "bio",
+			"class": "BIBC100",
+			"title": "Structural",
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"					
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "DNA and mRNA",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"					
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+		{
+			"id": 8,
+			"department": "econ",
+			"class": "ECON1",
+			"title": "A5",
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Sharetea Mira Mesa",
+			"desc": "Opportunity cost",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"					
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"				
+				}
+			]
+		},
+		{
+			"id": 9,
+			"department": "others",
+			"class": "ENG100d",
+			"title": "Centered Design",
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"id": 3,
+					"name": "Tiffany Ton"
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Prototype and unit testing",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"					
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"				
+				}
+			]
+		},
+		{
+			"id": 10,
+			"department": "cogs",
+			"class": "COGS120",
+			"title": "Lab 7",
+			"time": "9:00PM",
+			"avail" : 3,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		}
+	]
+}

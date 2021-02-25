@@ -1,11 +1,12 @@
 {
+	"availID": 31,
 	"groups": [
 		{
 			"id": 1,
 			"department": "cse",
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id" : 1,
+				"name": "Nhat Nguyen"	
 			},
 			"class": "CSE8a",
 			"title": "Hash Table",
@@ -15,12 +16,12 @@
 			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
+					"id": 2,
+					"name": "Minh Nguyen"
 				},
 				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"
 				}
 			]
 		},
@@ -32,19 +33,15 @@
 			"time": "9:00PM",
 			"avail" : 2,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id": 2,
+					"name": "Minh Nguyen"
 			},
-			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"loc": "Sharetea Mira Mesa",
+			"desc": "Assignment 2 and Lab 3",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
-				},
-				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"
 				}
 			]
 		},
@@ -56,19 +53,15 @@
 			"time": "9:00PM",
 			"avail" : 2,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id": 3,
+					"name": "Tiffany Ton"				
 			},
-			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"loc": "Meetfresh Mira Mesa",
+			"desc": "Pointer and Binary Heap",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
-				},
-				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 2,
+					"name": "Minh Nguyen"					
 				}
 			]
 		},
@@ -80,19 +73,19 @@
 			"time": "9:00PM",
 			"avail" : 3,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id": 3,
+				"name": "Tiffany Ton"				
 			},
-			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"loc": "Ding Tai Fung",
+			"desc": "Data analysis",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
+					"id": 1,
+					"name": "Nhat Nguyen"					
 				},
 				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"					
 				}
 			]
 		},
@@ -104,19 +97,19 @@
 			"time": "9:00PM",
 			"avail" : 3,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id": 1,
+				"name": "Nhat Nguyen"		
 			},
-			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"loc": "R&B Convoy",
+			"desc": "Point of view and hosting a server",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
+					"id": 2,
+					"name": "Minh Nguyen"					
 				},
 				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"					
 				}
 			]
 		},
@@ -128,19 +121,19 @@
 			"time": "9:00PM",
 			"avail" : 3,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id": 1,
+				"name": "Nhat Nguyen"				
 			},
-			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"loc": "Cake de Party",
+			"desc": "Accounting, profit and loss",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
+					"id": 2,
+					"name": "Minh Nguyen"					
 				},
 				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"					
 				}
 			]
 		},
@@ -152,19 +145,19 @@
 			"time": "9:00PM",
 			"avail" : 3,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id" : 1,
+				"name": "Nhat Nguyen"					
 			},
 			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"desc": "DNA and mRNA",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
+					"id": 2,
+					"name": "Minh Nguyen"					
 				},
 				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"					
 				}
 			]
 		},
@@ -176,19 +169,19 @@
 			"time": "9:00PM",
 			"avail" : 3,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id" : 1,
+				"name": "Nhat Nguyen"				
 			},
-			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"loc": "Sharetea Mira Mesa",
+			"desc": "Opportunity cost",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
+					"id": 2,
+					"name": "Minh Nguyen"					
 				},
 				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"				
 				}
 			]
 		},
@@ -200,19 +193,19 @@
 			"time": "9:00PM",
 			"avail" : 3,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id": 3,
+					"name": "Tiffany Ton"
 			},
 			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"desc": "Prototype and unit testing",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
+					"id": 2,
+					"name": "Minh Nguyen"					
 				},
 				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"				
 				}
 			]
 		},
@@ -220,23 +213,475 @@
 			"id": 10,
 			"department": "cogs",
 			"class": "COGS120",
-			"title": "Lab 7",
+			"title": "A6",
 			"time": "9:00PM",
 			"avail" : 3,
 			"host": {
-				"name": "Nhat Nguyen",
-				"phone": 6193966156
+				"id" : 1,
+				"name": "Nhat Nguyen"				
 			},
-			"loc": "Ding Tea Mira Mesa",
-			"desc": "Here are all the topic in this group study: 1. Hash Table, 2. Heap",
+			"loc": "DaYung Convoy",
+			"desc": "A6: Meat on the Bones",
 			"attendants": [
 				{
-					"name": "Minh Nguyen",
-					"phone": 6193966156
+					"id": 2,
+					"name": "Minh Nguyen"
 				},
 				{
-					"name": "Tiffany Ton",
-					"phone": 6193966156
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 11,
+			"department": "cogs",
+			"class": "COGS109",
+			"title": "Coding Lab 7",
+			"time": "6:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Exploratory Analysis",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 12,
+			"department": "econ",
+			"class": "ECON120c",
+			"title": "STATA Assignment 2",
+			"time": "6:45PM",
+			"avail" : 2,
+			"host": {
+				"id" : 2,
+				"name": "Minh Nguyen"				
+			},
+			"loc": "Ding Tea El Cajon",
+			"desc": "Linear Regression",
+			"attendants": [
+				{
+					"id": 1,
+					"name": "Nhat Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 13,
+			"department": "cse",
+			"class": "CSE151",
+			"title": "Lab 9",
+			"time": "6:32PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Recommender System",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 14,
+			"department": "cogs",
+			"class": "COGS18",
+			"title": "Coding Lab 7",
+			"time": "6:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 3,
+				"name": "Tiffany Ton"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Command Line",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 1,
+					"name": "Nhat Nguyen"					
+				}
+			]
+		},
+        {
+			"id": 15,
+			"department": "cogs",
+			"class": "COGS108",
+			"title": "Assignment 7",
+			"time": "11:00AM",
+			"avail" : 2,
+			"host": {
+				"id" : 2,
+				"name": "Minh Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Hypothesis Testing",
+			"attendants": [
+				{
+					"id": 1,
+					"name": "Nhat Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 16,
+			"department": "cogs",
+			"class": "COGS3",
+			"title": "Coding Lab 7",
+			"time": "6:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Bootstrap",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 17,
+			"department": "cogs",
+			"class": "COGS100",
+			"title": "Coding Lab 7",
+			"time": "6:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 3,
+				"name": "Tiffany Ton"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Human Brain",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 1,
+					"name": "Nhat Ton"					
+				}
+			]
+		},
+        {
+			"id": 18,
+			"department": "econ",
+			"class": "ECON109",
+			"title": "Midterm",
+			"time": "6:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 2,
+				"name": "Minh Nguyen"				
+			},
+			"loc": "Ding Tea El Cajon",
+			"desc": "Midterm",
+			"attendants": [
+				{
+					"id": 1,
+					"name": "Nhat Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 19,
+			"department": "cogs",
+			"class": "DSGN1",
+			"title": "Lab 6",
+			"time": "2:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 3,
+				"name": "Tiffany Ton"				
+			},
+			"loc": "Ding Tea La Jolla",
+			"desc": "Design Lab 4",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 1,
+					"name": "Nhat Nguyen"					
+				}
+			]
+		},
+        {
+			"id": 20,
+			"department": "cse",
+			"class": "CSE12",
+			"title": "Coding Lab 7",
+			"time": "5:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Tastea Mira Mesa",
+			"desc": "OOP",
+			"attendants": [
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 21,
+			"department": "cse",
+			"class": "CSE8A",
+			"title": "Coding Lab 6",
+			"time": "4:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "R&B Convoy",
+			"desc": "Data Structure",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				}
+			]
+		},
+        {
+			"id": 22,
+			"department": "cogs",
+			"class": "COGS109",
+			"title": "Coding Lab 9",
+			"time": "6:45PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Midterm Project",
+			"attendants": [
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 23,
+			"department": "cogs",
+			"class": "COGS108",
+			"title": "Study",
+			"time": "6:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Midterm Review",
+			"attendants": [
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 24,
+			"department": "econ",
+			"class": "ECON100A",
+			"title": "Midterm Review",
+			"time": "6:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 2,
+				"name": "Minh Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Review",
+			"attendants": [
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 25,
+			"department": "econ",
+			"class": "ECON 100B",
+			"title": "TA Session",
+			"time": "6:45PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Lecture Hall A345",
+			"desc": "Midterm Review",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 26,
+			"department": "cogs",
+			"class": "COGS109",
+			"title": "A5",
+			"time": "6:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 3,
+				"name": "Tiffany Ton"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "A5",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				}
+			]
+		},
+        {
+			"id": 27,
+			"department": "cogs",
+			"class": "COGS120",
+			"title": "Coding Lab 7",
+			"time": "6:00PM",
+			"avail" : 1,
+			"host": {
+				"id" : 4,
+				"name": "TA COGS120"				
+			},
+			"loc": "Ding Tea La Jolla",
+			"desc": "Node.js",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 29,
+			"department": "econ",
+			"class": "ECON 138",
+			"title": "Report Writing",
+			"time": "6:00PM",
+			"avail" : 3,
+			"host": {
+				"id" : 2,
+				"name": "Minh Nguyen"				
+			},
+			"loc": "Ding Tea Mira Mesa",
+			"desc": "Indian Market Research",
+			"attendants": [
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 29,
+			"department": "cse",
+			"class": "CSE100",
+			"title": "Midterm Project",
+			"time": "1:00PM",
+			"avail" : 2,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Geisel",
+			"desc": "Project",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
+				}
+			]
+		},
+        {
+			"id": 30,
+			"department": "cse",
+			"class": "CSE101",
+			"title": "Lab 7",
+			"time": "6:00PM",
+			"avail" : 4,
+			"host": {
+				"id" : 1,
+				"name": "Nhat Nguyen"				
+			},
+			"loc": "Price Center",
+			"desc": "1. Hash Table, 2. Heap",
+			"attendants": [
+				{
+					"id": 2,
+					"name": "Minh Nguyen"
+				},
+				{
+					"id": 3,
+					"name": "Tiffany Ton"					
 				}
 			]
 		}

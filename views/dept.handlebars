@@ -28,17 +28,17 @@
 	</nav>
 
 	<div class="container">
-        <form action="/search" class="form-inline justify-content-center">
+        <form action="/search" class="form-inline justify-content-center" method="get">
 			<div class="form-group mx-2 mb-2">
 				<label for="search" class="sr-only">Search</label>
-				<input type="text" class="form-control" id="search" placeholder='{{data.dept}}'>
+				<input type="text" class="form-control" id="search" name="search" placeholder='{{data.dept}}'>
 			</div>
 			<button type="submit" class="btn btn-primary mb-2">Search</button>
         </form>
         <h4 class="text-center">Study Groups</h4>
 	</div>
 
-    <div class="container-fluid">
+    <div class="body container-fluid">
         <table class="table" id="groupList">
             <thead>
                 <tr class="d-flex">
@@ -66,11 +66,11 @@
         <div class="container">
         <div class="d-flex justify-content-between">
             <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="history.back(-1)"> Back</button>
+                <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="window.location.href='/group-study'"> Back</button>
             </div>
             <div class="col-4"></div>
             <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-angle-add" onclick="window.location.href='/new-event'"> Add</button>
+                <button type="button" class="btn btn-primary btn-large fa fa-angle-add" onclick="window.location.href='/new-event/{{data.deptID}}'"> Add</button>
             </div>
         </div>
 	</footer>

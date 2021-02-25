@@ -19,7 +19,7 @@
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="/js/introHCI.js"></script>
+	<script src="/js/new-event.js"></script>
 </head>
 
 <body>
@@ -28,6 +28,7 @@
 	</nav>
 
 	<div class="container">
+        <input type="hidden" class="form-control-plaintext border" id="deptID" value="{{deptID}}">
         <h4 class="text-center my-3">Group Study Info</h4>
         <form class="mx-3">
             <div class="row my-2">
@@ -39,7 +40,7 @@
             <div class="row my-2">
                 <label for="class" class="col-3 col-form-label">Host</label>
                 <div class="col-9">
-                    <input type="text" class="form-control-plaintext border" id="host" >
+                    <input type="text" readonly class="form-control-plaintext border" id="host" value=" {{name}}">
                 </div>
             </div>
             <div class="row my-2">
@@ -69,7 +70,7 @@
             <div class="row my-2">
                 <label for="class" class="col-3 col-form-label">Detail</label>
                 <div class="col-12 my-2">
-                    <input type="text" class="form-control-plaintext border" id="desc">
+                    <textarea class="form-control" id="desc" rows="7"></textarea>
                 </div>
             </div>
         </form>
@@ -82,7 +83,7 @@
             </div>
             <div class="col-4"></div>
             <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-get-add" onclick="history.back(-1)"> Add</button>
+                <button type="button" class="btn btn-primary btn-large fa fa-get-add" id="addEvent"> Add</button>
             </div>
         </div>
         </div>

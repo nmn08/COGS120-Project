@@ -13,7 +13,21 @@ nav a {
 nav a:hover {
      color: rgba(255, 255, 255, 0.685);
 }
-
+.form-login {
+     background-color: #EDEDED;
+     margin-top: 25%;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     border-radius: 15px;
+     border-color:#d2d2d2;
+     border-width: 5px;
+     box-shadow:0 1px 0 #cfcfcf;
+}
+.wrapper {
+     text-align: center;
+}
 a.card {
      background-color: lightgrey;
      color: rgb(54, 54, 54);
@@ -85,4 +99,16 @@ footer button {
 
 #groupList button {
      width: 50px;
+}
+
+#desc {
+     height: auto;
+}
+
+#searchResult {
+     font-size: 1.3rem;
+}
+
+.body {
+     padding-bottom: 60px;
 }

@@ -2,6 +2,10 @@ var groupStudy = require('../group-study.json');
 var departments = require('../departments.json');
 
 exports.view = function(request, response){
+    sess = request.session;
+    if (!sess.userID) {
+        return response.redirect('/login');
+    }
     var dept = request.params.dept;
     var deptName;
     console.log(dept);
@@ -23,5 +27,6 @@ exports.view = function(request, response){
     }
 
     console.log(retVal);
-	response.render('dept', { data: { groups: retVal, dept: deptName} });
+    console.log(dept);
+	response.render('dept', { data: { groups: retVal, dept: deptName, deptID:dept} });
 };
