@@ -1,6 +1,6 @@
 var groupStudy = require('../group-study.json');
 
-exports.view = function(request, response){
+exports.add = function(request, response){
     sess = request.session;
     if (!sess.userID) {
         response.redirect('/login');
@@ -35,4 +35,21 @@ exports.auth = function (req,res) {
     console.log(newEvent);
     res.send({status:"done", id:availID})
     res.end();
+};
+
+exports.view = function(request, response){
+    sess = request.session;
+    if (!sess.userID) {
+        response.redirect('/login');
+    }
+    var id = request.params.id;
+    var data = groupStudy["groups"];
+    for(var i = 0; i < data.length; i++) {
+        obj = data[i];
+        if (obj["id"] == id) {
+            break;
+        }
+    }
+    response.render('event', {data: obj, isHost:true, id:id, deptID: obj['department'],
+    hostID:sess.userID, isAttorFull:false, isNew:true});
 };

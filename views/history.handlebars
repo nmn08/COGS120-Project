@@ -26,9 +26,31 @@
 	<nav class="navbar mb-2">
 		<a class="navbar-brand" href="/">Find Your Buddy</a>
 	</nav>
-	<div class="body container">
-		<p>This will show all events you are an attendant</p>
-	</div>
+	<div class="body container-fluid">
+		<h5>Here are all events you are an attendant</h5>
+        <table class="table" id="groupList">
+            <thead>
+                <tr class="d-flex">
+                    <th style="width: 25%">Class</th>
+                    <th style="width: 30%">Topic</th>
+                    <th style="width: 25%">Avail.</th>
+                    <th style="width: 20%">Select</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each data.groups.groups}}
+                <tr class="d-flex" id="row_{{id}}">
+                    <td style="width: 25%">{{class}}</td>
+                    <td style="width: 30%">{{title}}</td>
+                    <td style="width: 25%">{{avail}}</td>
+                    <td style="width: 20%">
+                        <button class="btn btn-primary btn-large fa fa-angle-double-right" type="submit" onclick="window.location.href='/event/{{id}}'"></button>
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
     <footer class="bg-light text-lg-start">
         <div class="container">
         <div class="d-flex justify-content-between">

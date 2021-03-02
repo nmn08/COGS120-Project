@@ -7,6 +7,24 @@ function reserve(id) {
 	$.get(url, callBackFn);
 }
 
+function share(id) {
+    $("#btn-close").click(close);
+    $("#myModal").show();
+    var url = window.location.href
+    const { hostname } = new URL(url);
+    var dummy = document.createElement("textarea");
+    document.body.appendChild(dummy);
+    dummy.value = hostname + "/event/" + id;
+    dummy.select();
+    document.execCommand("copy");
+    $("#modal-body").html("The sharing URL for the group study is successfully copied to your clipboard!");
+    document.body.removeChild(dummy);
+}
+
+function close() {
+    $("#myModal").hide();
+}
+
 function callBackFn(result) {
     console.log(result);
     if(result["alreadyAdded"]) {

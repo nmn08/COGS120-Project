@@ -85,11 +85,17 @@
     <footer class="bg-light text-lg-start">
         <div class="container">
         <div class="d-flex justify-content-between">
+            {{#if isNew}}
             <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="window.location.href='/dept/{{deptID}}'"> Back</button>
+                <button type="button" class="btn btn-primary btn-large fa fa-angle-check" onclick="window.location.href='/dept/{{deptID}}'"> Done</button>
             </div>
+            {{else}}
             <div class="col-4">
-                <button type="button" class="btn btn-primary btn-large fa fa-share" onclick="window.location.href='/share'"> Share</button>
+                <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="history.back(-1)"> Back</button>
+            </div>
+            {{/if}}
+            <div class="col-4">
+                <button type="button" class="btn btn-primary btn-large fa fa-share" onclick="share({{id}})"> Share</button>
             </div>
             {{#unless  isHost}}
             {{!-- <div class="col-4">
@@ -108,5 +114,22 @@
         </div>
         </div>
 	</footer>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal body -->
+                <div class="modal-body" id="modal-body">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" id="btn-close" class="btn btn-danger"> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

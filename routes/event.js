@@ -36,5 +36,6 @@ exports.view = function(request, response){
         }
     }
 
-    response.render('event', {data: obj, isHost:isHost, id:id, deptID: obj['department'], hostID:hostID, isAttorFull:isAttorFull});
+    response.render('event', {data: obj, isHost:isHost, id:id, deptID: obj['department'],
+    hostID:hostID, isAttorFull:isAttorFull,isNew:false});
 };

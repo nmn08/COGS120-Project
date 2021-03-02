@@ -55,13 +55,14 @@ app.get('/saved-events', savedEvents.view);
 app.get('/history', history.view);
 app.get('/dept/:dept', dept.view);
 app.get('/event/:id', event.view);
-app.get('/new-event/:id', newEvent.view);
+app.get('/new-event/:id', newEvent.add);
 app.get('/reserved/:id', reserved.view);
 app.get('/share', share.view);
 app.get('/search', search.view);
 app.get('/login', login.view);
 app.post('/login/auth',login.auth);
 app.post('/new-event/auth',newEvent.auth);
+app.get('/new-event/view/:id',newEvent.view);
 app.get('/logout',(req,res)=>{
   req.session.destroy(function (err) {
     res.redirect('/login'); 

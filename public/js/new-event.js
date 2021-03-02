@@ -26,7 +26,7 @@ $(document).ready(function() {
         },
         function(data){
             if(data.status==='done') {
-                window.location.href="/event/" + data.id;
+                window.location.href="/new-event/view/" + data.id;
             }
         });
     });
