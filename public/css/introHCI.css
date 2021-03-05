@@ -94,7 +94,7 @@ p.desc {
 
 footer button {
      height: 40px;
-     width: 100px;
+     width: 100%;
 }
 
 #groupList button {
@@ -124,3 +124,9 @@ body.modal-open .supreme-container{
      -ms-filter: blur(1px);
      filter: blur(1px);
  }
+
+@media (min-width: 768px) {
+.container {
+    max-width: 768px;
+}
+}

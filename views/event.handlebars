@@ -86,15 +86,15 @@
         <div class="container">
         <div class="d-flex justify-content-between">
             {{#if isNew}}
-            <div class="col-4">
+            <div class="col-4 text-center">
                 <button type="button" class="btn btn-primary btn-large fa fa-angle-check" onclick="window.location.href='/dept/{{deptID}}'"> Done</button>
             </div>
             {{else}}
-            <div class="col-4">
+            <div class="col-4 text-center">
                 <button type="button" class="btn btn-primary btn-large fa fa-angle-left" onclick="history.back(-1)"> Back</button>
             </div>
             {{/if}}
-            <div class="col-4">
+            <div class="col-4 text-center">
                 <button type="button" class="btn btn-primary btn-large fa fa-share" onclick="share({{id}})"> Share</button>
             </div>
             {{#unless  isHost}}
@@ -102,12 +102,12 @@
                 <button type="button" class="btn btn-primary btn-large fa fa-get-pocket" onclick="window.location.href='/save/{{id}}'"> Save</button>
             </div> --}}
             {{#if isAttorFull}}
-            <div class="col-4" >
-                <button type="button" id="btn-reserve" class="btn btn-primary btn-large fa fa-get-pocket" disabled='disabled'> Reserved</button>
+            <div class="col-4 text-center" >
+                <button type="button" id="btn-reserve" class="btn btn-primary btn-large fa" disabled='disabled'>Reserved</button>
             </div> --}}
             {{else}}
-            <div class="col-4" >
-                <button type="button" id="btn-reserve" class="btn btn-primary btn-large fa fa-get-pocket" onclick="reserve({{id}})"> Reserve</button>
+            <div class="col-4 text-center" >
+                <button type="button" id="btn-reserve" class="btn btn-primary btn-large fa" onclick="reserve({{id}})">Reserve</button>
             </div> --}}
             {{/if}}
             {{/unless}}
