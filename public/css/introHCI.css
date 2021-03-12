@@ -81,14 +81,15 @@ p.desc {
 }
 
 .col-form-label {
-     color: white;
-     padding-right: 0px;
-     padding-left: 0px;
-     text-align: center;
-     border: solid;
-     border-color: grey;
-     border-radius: 10px;
-     background-color: grey;
+    color: black;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    border: solid;
+    border-color: #1E90FF;
+    border-radius: 8px;
+    border-width: 2px;
+    font-weight: 600;
 }
 
 footer button {
